@@ -1,0 +1,14 @@
+POST  http://localhost:7071/api/SaveMessageFunction
+Content-Type: application/json
+
+{
+    "message": "Hello, from serialized JSON ABC!"
+}
+
+###
+POST https://testlambdatofunction.azurewebsites.net/api/SaveMessageFunction?code=ozIhBwPk4qXphz61yXqjIw0DcpGsV-kQdCndYLJYh4TfAzFu5jQORQ%3D%3D
+Content-Type: application/json
+
+{
+    "message": "Hello, Azure Functions!!"
+}
